@@ -1,0 +1,17 @@
+<div class="activation-container">
+    <p id="enterCodeText">रेफरल कोड दर्ज करें</p>
+    <input type="text" id="referralInput" placeholder="कोड दर्ज करें" />
+    <button id="getActivationBtn">सक्रियण कोड प्राप्त करें</button>
+
+    <!-- सभी संदेश HTML में हैं -->
+    <p id="emptyCodeMessage" class="hidden">⚠️ कृपया एक कोड दर्ज करें।</p>
+    <p id="checkingMessage" class="hidden">⏳ जांच हो रही है...</p>
+    <p id="errorMessage" class="hidden">❌ अमान्य या समाप्त हो चुका कोड।</p>
+    <p id="activationSuccessMessage" class="hidden">✅ सक्रियण कोड:</p>
+    <p id="fetchErrorMessage" class="hidden">❌ कोड प्राप्त करने में त्रुटि।</p>
+
+    <div id="activationContainer" class="hidden">
+        <span id="activationCode"></span>
+        <button id="copyBtn">कॉपी करें</button>
+    </div>
+</div>

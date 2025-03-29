@@ -1,0 +1,17 @@
+<div class="activation-container">
+<p id="enterCodeText">Nhập mã giới thiệu</p>
+<input type="text" id="referralInput" placeholder="Nhập mã" />
+<button id="getActivationBtn">Nhận mã kích hoạt</button>
+
+<!-- Tất cả tin nhắn đều ở dạng HTML -->
+<p id="emptyCodeMessage" class="hidden">⚠️ Vui lòng nhập mã.</p>
+<p id="checkingMessage" class="hidden">⏳ Đang kiểm tra...</p>
+<p id="errorMessage" class="hidden">❌ Mã không hợp lệ hoặc đã hết hạn.</p>
+<p id="activationSuccessMessage" class="hidden">✅ Mã kích hoạt:</p>
+<p id="fetchErrorMessage" class="hidden">❌ Có lỗi khi truy xuất mã.</p>
+
+<div id="activationContainer" class="hidden">
+<span id="activationCode"></span>
+<button id="copyBtn">Sao chép</button>
+</div>
+</div>

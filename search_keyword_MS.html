@@ -1,0 +1,17 @@
+<div class="activation-container">
+    <p id="enterCodeText">Masukkan kod rujukan</p>
+    <input type="text" id="referralInput" placeholder="Masukkan kod" />
+    <button id="getActivationBtn">Dapatkan kod pengaktifan</button>
+
+    <!-- Semua mesej ada dalam HTML -->
+    <p id="emptyCodeMessage" class="hidden">⚠️ Sila masukkan kod.</p>
+    <p id="checkingMessage" class="hidden">⏳ Sedang menyemak...</p>
+    <p id="errorMessage" class="hidden">❌ Kod tidak sah atau telah tamat tempoh.</p>
+    <p id="activationSuccessMessage" class="hidden">✅ Kod pengaktifan:</p>
+    <p id="fetchErrorMessage" class="hidden">❌ Ralat mendapatkan kod.</p>
+
+    <div id="activationContainer" class="hidden">
+        <span id="activationCode"></span>
+        <button id="copyBtn">Salin</button>
+    </div>
+</div>

@@ -1,0 +1,17 @@
+<div class="activation-container">
+    <p id="enterCodeText">ریفرل کوڈ درج کریں</p>
+    <input type="text" id="referralInput" placeholder="کوڈ درج کریں" />
+    <button id="getActivationBtn">فعالیت کا کوڈ حاصل کریں</button>
+
+    <!-- تمام پیغامات HTML میں ہیں -->
+    <p id="emptyCodeMessage" class="hidden">⚠️ براہ کرم ایک کوڈ درج کریں۔</p>
+    <p id="checkingMessage" class="hidden">⏳ چیک کیا جا رہا ہے...</p>
+    <p id="errorMessage" class="hidden">❌ غلط یا میعاد ختم ہونے والا کوڈ۔</p>
+    <p id="activationSuccessMessage" class="hidden">✅ فعالیت کا کوڈ:</p>
+    <p id="fetchErrorMessage" class="hidden">❌ کوڈ حاصل کرنے میں خرابی۔</p>
+
+    <div id="activationContainer" class="hidden">
+        <span id="activationCode"></span>
+        <button id="copyBtn">کاپی کریں</button>
+    </div>
+</div>

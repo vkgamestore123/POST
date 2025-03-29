@@ -1,0 +1,17 @@
+<div class="activation-container">
+    <p id="enterCodeText">Введите реферальный код</p>
+    <input type="text" id="referralInput" placeholder="Введите код" />
+    <button id="getActivationBtn">Получить код активации</button>
+
+    <!-- Все сообщения в HTML -->
+    <p id="emptyCodeMessage" class="hidden">⚠️ Пожалуйста, введите код.</p>
+    <p id="checkingMessage" class="hidden">⏳ Проверка...</p>
+    <p id="errorMessage" class="hidden">❌ Недействительный или истекший код.</p>
+    <p id="activationSuccessMessage" class="hidden">✅ Код активации:</p>
+    <p id="fetchErrorMessage" class="hidden">❌ Ошибка при получении кода.</p>
+
+    <div id="activationContainer" class="hidden">
+        <span id="activationCode"></span>
+        <button id="copyBtn">Копировать</button>
+    </div>
+</div>

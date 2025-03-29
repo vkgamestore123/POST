@@ -1,0 +1,17 @@
+<div class="activation-container">
+    <p id="enterCodeText">ป้อนรหัสแนะนำ</p>
+    <input type="text" id="referralInput" placeholder="ป้อนรหัส" />
+    <button id="getActivationBtn">รับรหัสเปิดใช้งาน</button>
+
+    <!-- ข้อความทั้งหมดอยู่ใน HTML -->
+    <p id="emptyCodeMessage" class="hidden">⚠️ กรุณาป้อนรหัส</p>
+    <p id="checkingMessage" class="hidden">⏳ กำลังตรวจสอบ...</p>
+    <p id="errorMessage" class="hidden">❌ รหัสไม่ถูกต้องหรือหมดอายุ</p>
+    <p id="activationSuccessMessage" class="hidden">✅ รหัสเปิดใช้งาน:</p>
+    <p id="fetchErrorMessage" class="hidden">❌ ข้อผิดพลาดในการดึงรหัส</p>
+
+    <div id="activationContainer" class="hidden">
+        <span id="activationCode"></span>
+        <button id="copyBtn">คัดลอก</button>
+    </div>
+</div>

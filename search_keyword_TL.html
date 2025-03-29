@@ -1,0 +1,17 @@
+<div class="activation-container">
+    <p id="enterCodeText">Ilagay ang referral code</p>
+    <input type="text" id="referralInput" placeholder="Ilagay ang code" />
+    <button id="getActivationBtn">Kunin ang activation code</button>
+
+    <!-- Lahat ng mensahe ay nasa HTML -->
+    <p id="emptyCodeMessage" class="hidden">⚠️ Pakilagay ang code.</p>
+    <p id="checkingMessage" class="hidden">⏳ Sinusuri...</p>
+    <p id="errorMessage" class="hidden">❌ Di-wasto o paso na ang code.</p>
+    <p id="activationSuccessMessage" class="hidden">✅ Activation code:</p>
+    <p id="fetchErrorMessage" class="hidden">❌ May error sa pagkuha ng code.</p>
+
+    <div id="activationContainer" class="hidden">
+        <span id="activationCode"></span>
+        <button id="copyBtn">Kopyahin</button>
+    </div>
+</div>

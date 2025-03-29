@@ -1,0 +1,17 @@
+<div class="activation-container">
+    <p id="enterCodeText">Digite o código de indicação</p>
+    <input type="text" id="referralInput" placeholder="Digite o código" />
+    <button id="getActivationBtn">Obter código de ativação</button>
+
+    <!-- Todas as mensagens estão no HTML -->
+    <p id="emptyCodeMessage" class="hidden">⚠️ Por favor, insira um código.</p>
+    <p id="checkingMessage" class="hidden">⏳ Verificando...</p>
+    <p id="errorMessage" class="hidden">❌ Código inválido ou expirado.</p>
+    <p id="activationSuccessMessage" class="hidden">✅ Código de ativação:</p>
+    <p id="fetchErrorMessage" class="hidden">❌ Erro ao recuperar o código.</p>
+
+    <div id="activationContainer" class="hidden">
+        <span id="activationCode"></span>
+        <button id="copyBtn">Copiar</button>
+    </div>
+</div>
